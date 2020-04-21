@@ -1,0 +1,235 @@
+<html>
+<head>
+<style>
+#satu, #dua, #tiga, #empat, #lima, #enam, #tujuh, #delapan, #sembilan
+{
+    position: relative;
+    height: 100px;
+	width: 175px;
+}
+#satu
+{
+    left: 20px;
+    top: 0px;
+    background-color:red;
+    z-index: 1;
+}
+#dua
+{
+    left: 95px;
+    top: -75px;
+    background-color:green;
+    z-index: 2;
+}
+#tiga
+{
+    left: 170px;
+    top: -150px;
+    background-color:blue;
+    z-index: 3;
+
+}
+#empat
+{
+    left: 245px;
+    top: -225px;
+    background-color:grey;
+    z-index: 4;
+}
+#lima
+{
+    left: 320px;
+    top: -300px;
+    background-color:coral;
+    z-index: 5;
+}
+#enam
+{
+    left: 395px;
+    top: -375px;
+    background-color:olive;
+    z-index: 6;
+}
+#tujuh
+{
+    left: 470px;
+    top: -450px;
+    background-color:indigo;
+    z-index: 7;
+}
+#delapan
+{
+    left: 545px;
+    top: -525px;
+    background-color:violet;
+    z-index: 8;
+}
+#sembilan
+{
+    left: 620px;
+    top: -600px;
+    background-color:brown;
+    z-index: 9;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding-right: 100px;
+  padding-left: 100px;
+  background: #f1f1f1;
+}
+.header {
+  color: brown;
+  text-align: center;
+  background: white;
+}
+.header h1 {
+  font-size: 38px;
+  font-family: Georgia, Garamond, Serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: brown;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.image {
+  width: 100%;
+}
+.line {
+  text-align: justify;
+  line-height: 1.6;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.footer {
+  padding: 20px;
+  text-align: right;
+  background: brown;
+  margin-top: 20px;
+}
+.footer {
+  font-size: 8px;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pantai Lumban Bulbul Balige</h1>
+  <p style="font-family:Serif, Garamond;text-align:center;"><i>Pantai pasir putih-nya Desa Lumban Bulbul.</i></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Informasi Tempat</a>
+  <a href="form.html">Paket Wisata</a>
+  <a href="layer.html">Denah Kegiatan</a>
+  <a href="fasilitas.html">Fasilitas dan Daya Tarik</a>
+  <a href="berita.html">Berita Terkait</a>
+  <a href="review.html">Review Pantai</a>
+  <a href="kontak.html">Kontak</a>
+</div>
+<br>
+
+<div class="row">
+  <div class="leftcolumn">
+	<div class="card">
+      <h4 id="c4">Sunset yang memukau</h4>
+	   <p style="font-size:12;"><i>tjutjukbs, 24 April 2017</i></p>
+	    <div class="line">
+			<p>Pantai Lumban Bul-Bul terletak di desa Lumban Bul-Bul, sekitar 2 km dari Balige merupakan pantai brrpasir berwarna putih dan berair tawar. Wisatawan disini tidak perlu takut bermain di pinggir pantai karena kedalamannya hanya sebatas pinggang serta airnya bersih. Disini terdapat area bermain seperti perosotan di area dangkalnya sehingga anak-anak bisa meluncur langsung ke danau. Tempat ini cocok untuk refreshing. Wisatawan juga bisa menikmati keindahan 
+			sunset yang begitu memukau. Wisafawan bisa berenang dan bersantai sambil menikmati keindahan pantai.</p>
+		</div>
+	</div>
+	<div class="card">
+      <h4 id="c5">Garis pantai 'surga' di Tepian Danau Toba</h4>
+	   <p style="font-size:12;"><i>Hendra S, 19 Februari 2017</i></p>
+	    <div class="line">
+			<p>Terletak di Desa Lumban Bul - Bul, Kecamatan Balige, Toba Samosir, Sumatera Utara. Dapat ditempuh 5 - 10 menit dari pusat kota Balige dengan angkutan umum berupa becak motor. Pantai berpasir putih ini memiliki garis pantai yang cukup panjang. Dilengkapi dengan fasilitas permainan air seperti kano / kayak, speedboat, banana boat, perahu / kapal, ban pelampung, sepeda air, dan permainan menarik lainnya. Tidak perlu takut kelaparan atau kehausan karena di tepi pantai banyak tempat makan dan minum dengan menu khas Danau Toba. Lokasi dilengkapi dengan fasilitas toilet, kamar bilas, arena permainan anak, penjaga pantai, dan lahan parkir yang cukup luas. Hanya kebersihan masih perlu ditingkatkan. Masih terdapat sampah di beberapa tempat. Tempat ini masih relatif baru, dan masih akan dikembangkan kembali oleh Pemda setempat.
+				Di tempat ini, sunset di sore hari akan melengkapi perjalanan wisata Anda. Cukup rekomended.</p>
+		</div>
+	</div>
+	<div class="card">
+      <h4 id="c6">Saat banana boat</h4>
+	   <p style="font-size:12;"><i>Tanya Sessysiregar, 13 November 2017</i></p>
+	    <div class="line">
+			<p>kendati memicu andrenaline, saat yang menyenangkan saat banana boat berada di pantai yang agak dalam , dan diterpa 
+			   ombak sehingga menimbulkan ketegangan</p>
+		</div>
+	</div>
+	<div class="card">
+	    <div class="line">
+			<p>Tinggalkan komentar ataupun cerita pengalaman anda <a href="kontak.html#c7" style="color:blue;">disini</a></p>
+		</div>
+	</div>
+  </div>							
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="font-family:Georgia, Serif, Garamond;" >Berita Terbaru</h2>
+         <p><a href="berita.html#c1">Balige Menangkap Potensi Wisata</a></p>
+		 <p><a href="berita.html#c2">Keliling Sekitar Pantai Lumban Bulbul Naik Sampan</a></p>
+		 <p><a href="berita.html#c3">2 Pantai Pasir Danau Toba Ini Difasilitasi Permainan Anak</a></p>
+    </div>
+	<div class="card">
+      <h2 style="font-family:Georgia, Serif, Garamond;" >Review Terbaru</h2>
+		 <p><a href="#c4">Sunset yang Memukau</a></p>
+		 <p><a href="#c5">Garis pantai 'surga' di Tepian Danau Toba</a></p>
+		 <p><a href="#c6">Saat banana boat</a></p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>WA-1 @ Erwin Tobing (10118702) - 2019</h2>
+</div>
+
+</body>
+</html>

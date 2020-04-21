@@ -1,0 +1,231 @@
+<html>
+<head>
+<style>
+#satu, #dua, #tiga, #empat, #lima, #enam, #tujuh, #delapan, #sembilan
+{
+    position: relative;
+    height: 100px;
+	width: 175px;
+}
+#satu
+{
+    left: 20px;
+    top: 0px;
+    background-color:red;
+    z-index: 1;
+}
+#dua
+{
+    left: 95px;
+    top: -75px;
+    background-color:green;
+    z-index: 2;
+}
+#tiga
+{
+    left: 170px;
+    top: -150px;
+    background-color:blue;
+    z-index: 3;
+
+}
+#empat
+{
+    left: 245px;
+    top: -225px;
+    background-color:grey;
+    z-index: 4;
+}
+#lima
+{
+    left: 320px;
+    top: -300px;
+    background-color:coral;
+    z-index: 5;
+}
+#enam
+{
+    left: 395px;
+    top: -375px;
+    background-color:olive;
+    z-index: 6;
+}
+#tujuh
+{
+    left: 470px;
+    top: -450px;
+    background-color:indigo;
+    z-index: 7;
+}
+#delapan
+{
+    left: 545px;
+    top: -525px;
+    background-color:violet;
+    z-index: 8;
+}
+#sembilan
+{
+    left: 620px;
+    top: -600px;
+    background-color:teal;
+    z-index: 9;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding-right: 100px;
+  padding-left: 100px;
+  background: #f1f1f1;
+}
+.header {
+  color: brown;
+  text-align: center;
+  background: white;
+}
+.header h1 {
+  font-size: 38px;
+  font-family: Georgia, Garamond, Serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: brown;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.image {
+  width: 100%;
+}
+.line {
+  text-align: justify;
+  line-height: 1.6;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.footer {
+  padding: 20px;
+  text-align: right;
+  background: brown;
+  margin-top: 20px;
+}
+.footer {
+  font-size: 8px;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pantai Lumban Bulbul Balige</h1>
+  <p style="font-family:Serif, Garamond;text-align:center;"><i>Pantai pasir putih-nya Desa Lumban Bulbul.</i></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Informasi Tempat</a>
+  <a href="form.html">Paket Wisata</a>
+  <a href="layer.html">Denah Kegiatan</a>
+  <a href="fasilitas.html">Fasilitas dan Daya Tarik</a>
+  <a href="berita.html">Berita Terkait</a>
+  <a href="review.html">Review Pantai</a>
+  <a href="kontak.html">Kontak</a>
+</div>
+<br>
+
+<div class="row">
+  <div class="leftcolumn">
+	<div class="card">
+		<h3 style="text-align:center;font-family:Georgia, Serif, Garamond;">Denah Kegiatan Perhari</h3>
+		<br><br>
+		<div class="image" style="height:400px;">
+		<div id="satu" style="color:white;padding:3px;font-size:11;">13:00 Makan Siang</div>
+		<div id="dua" style="color:white;padding:3px;font-size:11;">14:00-16:00 Kegiatan Pribadi</div>
+		<div id="tiga" style="color:white;padding:3px;font-size:11;">16:00 Snack Sore</div>
+		<div id="empat" style="color:white;padding:3px;font-size:11;">17:00-19:00 Kegiatan Pribadi</div>
+		<div id="lima" style="color:white;padding:3px;font-size:11;">19:00 Makan Malam</div>
+		<div id="enam" style="color:white;padding:3px;font-size:11;">17:00-19:00 Kegiatan Pribadi</div>
+		<div id="tujuh" style="color:white;padding:3px;font-size:11;">21:00 Snack Malam</div>
+		<div id="delapan" style="color:white;padding:3px;font-size:11;">07:00 Sarapan Pagi</div>
+		<div id="sembilan" style="color:white;padding:3px;font-size:11;">08:00-11:30 Kegiatan Pribadi</div>
+		</div> 
+	</div>
+		<div class="card">
+      <h4>Keterangan :</h4>
+	  <div class="line">
+		<p>1. Pengunjung dapat mengisikan kegiatan pribadi sehingga dapat difasilitasi <br>
+		   2. Pengunjung dapat mengganti jadwal makan dengan mengonfirmasi secara langsung<br>
+		   3. Untuk Snack dapat digantikan dengan voucer yang dapat digunakan dikantin-kantin pinggir pantai<br>
+		</p>
+	  </div>
+	</div>
+	
+  </div>							
+  <div class="rightcolumn">
+    <div class="card">
+     <h2 style="font-family:Georgia, Serif, Garamond;" >Berita Terbaru</h2>
+         <p><a href="berita.html#c1">Balige Menangkap Potensi Wisata</a></p>
+		 <p><a href="berita.html#c2">Keliling Sekitar Pantai Lumban Bulbul Naik Sampan</a></p>
+		 <p><a href="berita.html#c3">2 Pantai Pasir Danau Toba Ini Difasilitasi Permainan Anak</a></p>
+    </div>
+	<div class="card">
+      <h2 style="font-family:Georgia, Serif, Garamond;" >Review Terbaru</h2>
+		 <p><a href="review.html#c4">Sunset yang Memukau</a></p>
+		 <p><a href="review.html#c5">Garis pantai 'surga' di Tepian Danau Toba</a></p>
+		 <p><a href="review.html#c6">Saat banan boat</a></p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>WA-1 @ Erwin Tobing (10118702) - 2019</h2>
+</div>
+
+</body>
+</html>

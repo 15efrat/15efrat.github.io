@@ -1,0 +1,190 @@
+<html>
+<head>
+<style>
+table {
+  width:75%;
+}
+}
+th, td {
+  padding: 15px;
+  text-align: right;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding-right: 100px;
+  padding-left: 100px;
+  background: #f1f1f1;
+}
+.header {
+  color: brown;
+  text-align: center;
+  background: white;
+}
+.header h1 {
+  font-size: 38px;
+  font-family: Georgia, Garamond, Serif;
+}
+.header h2 {
+  font-family:Georgia, Serif, Garamond;
+}
+.topnav {
+  overflow: hidden;
+  background-color: brown;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.image {
+  width: 100%;
+}
+.line {
+  text-align: justify;
+  line-height: 1.6;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.footer {
+  padding: 20px;
+  text-align: right;
+  background: brown;
+  margin-top: 20px;
+}
+.footer {
+  font-size: 8px;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pantai Lumban Bulbul Balige</h1>
+  <p style="font-family:Serif, Garamond;text-align:center;"><i>Pantai pasir putih-nya Desa Lumban Bulbul.</i></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Informasi Tempat</a>
+  <a href="form.html">Paket Wisata</a>
+  <a href="layer.html">Denah Kegiatan</a>
+  <a href="fasilitas.html">Fasilitas dan Daya Tarik</a>
+  <a href="berita.html">Berita Terkait</a>
+  <a href="review.html">Review Pantai</a>
+  <a href="kontak.html">Kontak</a>
+</div>
+<br>
+
+<div class="row">
+  <div class="leftcolumn">
+	<div class="card">
+      <h3 id="c4" style="font-family:Georgia, Serif, Garamond;text-align:center;">Hubungi kami</h3>
+	  <br>
+		
+	   <table style="width:100%;font-family:Georgia, Garamond, Serif;color:blue;font-style:italic;">
+				<tr style="font-variant:small-caps;bgcolor:black;font-style:normal;color:black;font-size:18px;">
+					<th align="right" bgcolor="Orchid">Email</th>
+					<th align="left" bgcolor="Orchid">erwinjey@ymail.com</th> 
+				</tr>
+				<tr style="font-variant:small-caps;bgcolor:black;font-style:normal;color:black;font-size:18px;">
+					<td align="right" bgcolor="Orange">Nama</td>
+					<td align="left" bgcolor="Orange">Erwin Tobing</td>
+				</tr>
+				<tr style="font-variant:small-caps;bgcolor:black;font-style:normal;color:black;font-size:18px;">
+					<th align="right" bgcolor="Orchid">Nim</th>
+					<th align="left" bgcolor="Orchid">10118702</th> 
+				</tr>
+				<tr style="font-variant:small-caps;bgcolor:black;font-style:normal;color:black;font-size:18px;">
+					<td align="right" bgcolor="Orange">Facebook</td>
+					<td align="left" bgcolor="Orange">erwinjey@ymail.com</td>
+				</tr>
+				<tr style="font-variant:small-caps;bgcolor:black;font-style:normal;color:black;font-size:18px;">
+					<td align="right" bgcolor="Orchid">Telp</td>
+					<td align="left" bgcolor="Orchid">082243898334</td>
+				</tr>
+			</table>
+	</div>
+	<div class="card">
+		<form action="/action_page.php">
+		<fieldset>
+		<legend id="c7">Silahkan Tinggalkan Komentar:</legend>
+			Judul:<br>
+			<input type="text" name="firstname" value="judul komentar">
+			<br>
+			Username:<br>
+			<input type="text" name="lastname" value="nolino">
+			<br>
+			Komentar:<br>
+            <textarea rows="10" cols="100" name="biografi"></textarea><br><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+	</div>
+	
+	</div>									
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="font-family:Georgia, Serif, Garamond;" >Berita Terbaru</h2>
+         <p><a href="berita.html#c1">Balige Menangkap Potensi Wisata</a></p>
+		 <p><a href="berita.html#c2">Keliling Sekitar Pantai Lumban Bulbul Naik Sampan</a></p>
+		 <p><a href="berita.html#c3">2 Pantai Pasir Danau Toba Ini Difasilitasi Permainan Anak</a></p>
+    </div>
+	<div class="card">
+      <h2 style="font-family:Georgia, Serif, Garamond;" >Review Terbaru</h2>
+		 <p><a href="review.html#c4">Sunset yang Memukau</a></p>
+		 <p><a href="review.html#c5">Garis pantai 'surga' di Tepian Danau Toba</a></p>
+		 <p><a href="review.html#c6">Saat banana boat</a></p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>WA-1 @ Erwin Tobing (10118702) - 2019</h2>
+</div>
+
+</body>
+</html>
